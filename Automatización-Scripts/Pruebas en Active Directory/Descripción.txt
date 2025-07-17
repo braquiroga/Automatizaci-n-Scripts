@@ -1,0 +1,2 @@
+Generador Automático de Equipos de Prueba en Active Directory
+Este script permite crear de forma automatizada equipos de prueba dentro de un entorno de Active Directory (AD). Está diseñado para facilitar pruebas de políticas de grupo (GPOs), despliegues de software o simulaciones, sin necesidad de registrar cada equipo manualmente.

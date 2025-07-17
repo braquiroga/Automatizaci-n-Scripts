@@ -1,0 +1,36 @@
+# Cambio de Codigo para UDM/UDM-Pro API
+
+1. Endpoint de Login:
+
+UDM:
+login_url = f"{controller_url}/api/auth/login"
+
+
+2. Endpoints para obtener APs y dispositivos:
+
+UDM:
+aps_url = f"{controller_url}/proxy/network/api/s/{site_id}/stat/device-basic"
+devices_url = f"{controller_url}/proxy/network/api/s/{site_id}/stat/sta"
+
+
+
+3. Código login:
+
+
+UDM:
+def login(controller_url, username, password):
+    login_url = f"{controller_url}/api/auth/login"
+    payload = {'username': username, 'password': password}
+    response = requests.post(login_url, json=payload, verify=False)
+    return response.cookies if response.status_code == 200 else None
+
+
+4. Llamadas a API para datos:
+
+UDM:
+aps_url = f"{controller_url}/proxy/network/api/s/{site_id}/stat/device-basic"
+response = requests.get(aps_url, cookies=cookies, verify=False)
+
+
+# Nota:
+Solo cambian las rutas de API y el endpoint de login. El resto del código permanece igual.

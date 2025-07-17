@@ -1,0 +1,2 @@
+Borrador de Mensajes en Canales de Slack
+Este script automatiza la eliminación de mensajes dentro de un canal específico de Slack, utilizando su ID como referencia. Está pensado para facilitar la limpieza de canales antiguos, temporales o de pruebas, manteniendo el espacio de trabajo organizado.

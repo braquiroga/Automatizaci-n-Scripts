@@ -1,0 +1,2 @@
+Reinicio Automático del Servicio de Impresión
+Este script está diseñado para reiniciar automáticamente el servicio de impresión en un equipo, ayudando a resolver problemas comunes como atascos de cola, impresiones pendientes o servicios congelados. Es una solución rápida y automatizada para restaurar el funcionamiento normal del sistema de impresión sin intervención manual.

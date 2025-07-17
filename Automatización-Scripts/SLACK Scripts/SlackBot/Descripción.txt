@@ -1,0 +1,16 @@
+Slackbot de Soporte y Comunicación
+Este Script contiene el código de un Slackbot diseñado para facilitar la comunicación con clientes y automatizar procesos internos de soporte. El bot ofrece comandos y respuestas predefinidas que permiten al equipo trabajar de forma más eficiente y mantener informados a los usuarios, incluso fuera del horario de atención.
+
+Funcionalidades
+Respuesta Automática: "Fuera de Oficina"
+El bot responde automáticamente a mensajes directos recibidos fuera del horario laboral. Esta funcionalidad asegura que los clientes reciban una confirmación inmediata de que su mensaje fue recibido y será atendido más adelante.
+
+
+Comando de Replicación de Mensajes (Broadcast)
+Permite enviar un mismo mensaje a múltiples canales de clientes de forma automática. Es útil para notificaciones generales, cambios de servicio, alertas o cualquier tipo de anuncio que deba llegar a varios grupos al mismo tiempo.
+
+Creación Automática de Tickets
+Incluye comandos para generar tickets de soporte directamente desde Slack, sin necesidad de que un agente o bot interactivo intervenga en el proceso.
+
+
+Se debe configurar la API de Slack previamente para su funcionamiento según los endpoints generados.

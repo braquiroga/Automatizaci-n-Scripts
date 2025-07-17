@@ -1,0 +1,2 @@
+Contador de Impresiones Automático con Envío por Correo
+Este script automatiza el proceso de relevamiento de contadores de impresión de un servicio contratado. Utiliza Selenium para ingresar a la URL de los dispositivos, obtener los datos de uso y enviar un resumen por correo electrónico a los responsables del área.

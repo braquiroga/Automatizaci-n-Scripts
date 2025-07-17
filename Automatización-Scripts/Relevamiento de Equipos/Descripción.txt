@@ -1,0 +1,3 @@
+Script de Relevamiento de Equipos de Trabajo
+Este script automatiza el relevamiento de equipos de trabajo utilizando PowerShell (en sistemas Windows). Su objetivo es recopilar información técnica de cada equipo para tareas de auditoría, soporte o inventario de TI.
+

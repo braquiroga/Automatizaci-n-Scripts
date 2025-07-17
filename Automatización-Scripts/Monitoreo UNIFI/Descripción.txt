@@ -1,0 +1,17 @@
+Descripción del Script de Monitoreo UniFi / UDM
+Este script automatiza el monitoreo de dispositivos conectados a una red UniFi Controller o UDM/UDM-Pro. Extrae información sobre los puntos de acceso y los dispositivos conectados, filtrando aquellos sin nombre o desconocidos, y consulta el sistema pfSense para identificar los clientes por MAC.
+
+Luego, genera reportes automáticos que se envían a un sistema de tickets osTicket mediante su API para facilitar la gestión y seguimiento de dispositivos no autorizados o desconocidos.
+
+Tecnologías y herramientas utilizadas
+API UniFi / UDM: Para obtener datos en tiempo real de puntos de acceso y clientes conectados.
+
+Selenium: Para automatizar la consulta y extracción de información desde la interfaz web de pfSense.
+
+API osTicket: Para crear tickets automáticamente con alertas de dispositivos detectados.
+
+Python: Lenguaje principal para la automatización y procesamiento de datos.
+
+dotenv: Para manejar configuraciones sensibles como credenciales mediante variables de entorno.
+
+Requests: Para realizar peticiones HTTP a las APIs.
